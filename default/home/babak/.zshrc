@@ -105,8 +105,10 @@ export GOPATH=/home/babak/go
 export LGOBIN=$GOPATH/bin
 
 export PATH="$PATH:/home/babak/.shortcuts"
-export PATH="$PATH:/usr/local/texlive/2017/bin/x86_64-linux"
+export PATH="$PATH:/usr/local/texlive/2021/bin/x86_64-linux"
 export PATH=$PATH:$LGOBIN
+export PATH="$PATH:/home/babak/.deno/bin"
+export DENO_INSTALL="/home/babak/.deno"
 
 set -o vi
 
