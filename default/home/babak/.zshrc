@@ -114,8 +114,6 @@ set -o vi
 
 export VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
 
-source ~/.ayyar-so/alias.sh
-
 alias G='grep -iP'
 
 export GPG_TTY=$(tty)
