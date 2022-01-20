@@ -61,8 +61,8 @@ load {
         format = "%5min"
 }
 cpu_temperature 0 {
-        format = "T: %degrees °C"
-        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input"
+        format = "T:%degrees°C"
+        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input"
 }
 memory {
         format = "%used"
