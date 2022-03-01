@@ -249,3 +249,5 @@ exec code-insiders
 exec --no-startup-id i3-msg 'workspace $ws1; exec i3-sensible-terminal'
 exec --no-startup-id i3-msg 'workspace $ws1; exec i3-sensible-terminal'
 
+focus_follows_mouse no
+
