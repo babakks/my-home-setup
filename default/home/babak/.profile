@@ -27,3 +27,9 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 export GPG_TTY=$(tty)
 export PATH=$PATH:/usr/local/go/bin
+. "$HOME/.cargo/env"
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/babak/.local/share/JetBrains/Toolbox/scripts"
+
