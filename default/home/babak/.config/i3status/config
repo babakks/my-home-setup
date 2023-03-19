@@ -15,7 +15,7 @@ order += "battery 0"
 order += "memory"
 order += "load"
 order += "tztime local"
-order += "tztime tehran"
+order += "tztime london"
 
 wireless wlp0s20f3 {
         format_up = "W:(%quality at %essid, %bitrate) %ip"
@@ -54,9 +54,9 @@ tztime local {
         format = "%Y-%m-%d %H:%M:%S"
         hide_if_equals_localtime = true
 }
-tztime tehran {
+tztime london {
         format = "%Y-%m-%d %H:%M:%S %Z"
-        timezone = "Asia/Tehran"
+        timezone = "Europe/London"
 }
 load {
         format = "%5min"
